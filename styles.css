@@ -1,0 +1,39 @@
+
+body{
+   margin-top: 0;
+}
+.hero-img{
+    height: 100vh;
+    background-color: #0F2E8A;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    
+    
+}
+
+
+
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: #051954;
+    margin: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* hero section */
+
+section{
+    display: grid;
+    /* height:100vh ; */
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px;
+}
+.table{
+    background-color: #405CAE;
+    margin: 10px;
+    /* width: 20rem; */
+
+}
